@@ -146,4 +146,95 @@ main .article{
 .card{
     text-align: center;
     margin: 50px 0px;
+    position: relative;
+}
+.card p{
+    margin-top: 10px;
+}
+.card-one{
+    height: 200px;
+    width: 220px;
+    position: absolute;
+    margin-top: 35px;
+    background-color: #fff6f4;
+    left: 10px;
+}
+.card-two{
+    height: 200px;
+    width: 220px;
+    position: absolute;
+    margin-top: 35px;
+    background-color: #f2f6fe;
+    left: 340px;
+}
+.card-three{
+    height: 200px;
+    width: 220px;
+    position: absolute;
+    margin-top: 35px;
+    background-color: #fffdf2;
+    right: 10px;
+}
+.search{
+    position: relative;
+    background-image: url(/images/handshake.jpg);
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    height: 200px;
+    width: 600px;
+    margin-left: 140px;
+    padding-bottom: 10px;
+}
+.search .search-bar{
+    height: 110px;
+    width: 480px;
+    border: 1px solid rgb(156, 154, 154);
+    position: absolute;
+    top: 45px;
+    left: 55px;
+    text-align: center;
+}
+.search .search-bar p{
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.search .search-bar input{
+    width: 210px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.search .search-bar button{
+    height: 23px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.search .search-bar button a{
+    text-decoration: none;
+    color: #0d1321;
+}
+footer{
+    margin-left: 200px;
+    margin-top: 40px;
+    width: 900px;
+    height: 50px;
+    background-color: #e0e0e0;
+    position: relative;
+}
+footer p{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+footer .last{
+    position: absolute;
+    right: 10px;
+
+    bottom: 10px;
+}
+footer .last i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0866ff;
 }
