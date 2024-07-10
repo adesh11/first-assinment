@@ -1,22 +1,149 @@
 *{
     margin: 0;
     padding: 0;
-}
 header{
     background: url(/images/Hero-bg.png) no-repeat ;
     margin-top: 30px;
-    height: 500px;
+    height: 450px;
 }
 .bg-img{
     text-align: center;
+    align-items: center;
 }
 .bg-img img{
     margin-top: 20px;
     height: 200px;
 }
 .bg-img h2{
-    width: 450px;
-    margin-left: 400px;
     margin-top: 20px;
+    height: 50px;
     margin-bottom: 20px;
+}
+.bg-img p{
+    margin-bottom: 35px;
+}
+.bg-img button {
+    padding: 8px 20px;
+    border-radius: 6px;
+    background-color: #0d1321;
+}
+.bg-img button a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    width: 70%;
+    margin: auto;
+    background-color: #ededed;
+    padding: 0px 50px;
+
+}    
+.title{
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+}
+.title h2{
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+main .article{
+    margin-top: 30px;
+    height: 130px;
+    background-color: white;
+    background-image: linear-gradient(to right, #fafafa, #ededed);
+    position: relative;
+    padding: 40px;
+    padding-bottom: 70px;
+    
+}
+.article h3{
+    display: inline-block;
+}
+.article .pc-img{
+    position: absolute;
+    right: 20px;
+    height: 140px;
+}
+.article p{
+    margin-top: 20px;
+}
+.article button{
+    margin-top: 25px;
+    padding: 8px 10px;
+    width: 120px;
+    background-color: white;
+}
+.article button a{
+    text-decoration: none;
+    color: black;
+}
+.article-one{
+    margin-top: 30px;
+    height: 130px;
+    background-color: white;
+    background-image: linear-gradient(to right, #ededed, #fafafa);
+    position: relative;
+    padding: 40px;
+    padding-bottom: 70px;
+}
+.article-one .pic{
+    height: 140px;
+}
+.article-one h3{
+    display: inline;
+    position: absolute;
+    left: 300px;
+}
+.article-one  p{
+    position: absolute;
+    display: inline;
+    left: 300px;
+    top: 105px;
+}
+.article-one button{
+    margin-top: 25px;
+    padding: 8px 10px;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    left: 300px;
+    top: 140px;
+}
+.article-one button a{
+    text-decoration: none;
+    color: black;
+}
+.my-de {
+    background-color: white;
+}
+.my-de .title-video{
+    text-align: center;
+    padding-top: 40px;
+}
+.my-de .title-video h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.my-de .title-video p{
+    width: 800px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+.my-de .title-video iframe{
+    padding: 15px;
+    border: 1px solid rgb(138, 136, 136);
+    height: 350px;
+    width: 750px;
+    border-radius: 10px;
+}
+.my-de{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 0px 50px;
+}
+.card{
+    text-align: center;
+    margin: 50px 0px;
 }
